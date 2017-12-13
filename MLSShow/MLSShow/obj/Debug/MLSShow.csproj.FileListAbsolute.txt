@@ -1,0 +1,5 @@
+/Users/apple/Documents/Jarvis/IOS项目/喵直播-为爱疯狂打call/展示网页/MLSShow/MLSShow/bin/MLSShow.dll
+/Users/apple/Documents/Jarvis/IOS项目/喵直播-为爱疯狂打call/展示网页/MLSShow/MLSShow/bin/MLSShow.pdb
+/Users/apple/Documents/Jarvis/IOS项目/喵直播-为爱疯狂打call/展示网页/MLSShow/MLSShow/obj/Debug/MLSShow.csproj.CoreCompileInputs.cache
+/Users/apple/Documents/Jarvis/IOS项目/喵直播-为爱疯狂打call/展示网页/MLSShow/MLSShow/obj/Debug/MLSShow.dll
+/Users/apple/Documents/Jarvis/IOS项目/喵直播-为爱疯狂打call/展示网页/MLSShow/MLSShow/obj/Debug/MLSShow.pdb

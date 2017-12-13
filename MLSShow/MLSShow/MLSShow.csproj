@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{50474B87-9B05-4164-A6F9-380106E8D817}</ProjectGuid>
+    <ProjectTypeGuids>{349C5851-65DF-11DA-9384-00065B846F21};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>MLSShow</RootNamespace>
+    <AssemblyName>MLSShow</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config" />
+    <Content Include="Global.asax" />
+    <Content Include="Home.html" />
+    <Content Include="dstp_31_7625\index.html" />
+    <Content Include="css\fonts\SourceHanSansSC-ExtraLight.eot" />
+    <Content Include="css\fonts\SourceHanSansSC-ExtraLight.ttf" />
+    <Content Include="css\fonts\SourceHanSansSC-ExtraLight.woff" />
+    <Content Include="css\fonts\SourceHanSansSC-Normal.eot" />
+    <Content Include="css\fonts\SourceHanSansSC-Normal.ttf" />
+    <Content Include="css\fonts\SourceHanSansSC-Normal.woff" />
+    <Content Include="css\fonts\SourceHanSansSC-Regular.eot" />
+    <Content Include="css\fonts\SourceHanSansSC-Regular.ttf" />
+    <Content Include="css\fonts\SourceHanSansSC-Regular.woff" />
+    <Content Include="css\index.css" />
+    <Content Include="css\index-IE.css" />
+    <Content Include="css\index-mobile.css" />
+    <Content Include="images\background.jpg" />
+    <Content Include="images\background2740d2.jpg" />
+    <Content Include="images\download_hand.png" />
+    <Content Include="images\download_hand_2x2740d2.png" />
+    <Content Include="images\download_hand_4x2740d2.png" />
+    <Content Include="images\function_2x2788ec.png" />
+    <Content Include="images\function_4x2788ec.png" />
+    <Content Include="images\function1_book_page1_2x2761ce.jpg" />
+    <Content Include="images\function1_book_page1_4x2761ce.jpg" />
+    <Content Include="images\function1_book_page2_2x2761ce.jpg" />
+    <Content Include="images\function1_book_page2_4x2761ce.jpg" />
+    <Content Include="images\function2_book_01_2x2761ce.jpg" />
+    <Content Include="images\function2_book_01_4x2761ce.jpg" />
+    <Content Include="images\function2_book_02_2x2761ce.jpg" />
+    <Content Include="images\function2_book_02_4x2761ce.jpg" />
+    <Content Include="images\function2_book_03_2x2761ce.jpg" />
+    <Content Include="images\function2_book_03_4x2761ce.jpg" />
+    <Content Include="images\function2_book_04_2x2761ce.jpg" />
+    <Content Include="images\function2_book_04_4x2761ce.jpg" />
+    <Content Include="images\function2_book_05_2x2761ce.jpg" />
+    <Content Include="images\function2_book_05_4x2761ce.jpg" />
+    <Content Include="images\function2_book_06_2x2761ce.jpg" />
+    <Content Include="images\function2_book_06_4x2761ce.jpg" />
+    <Content Include="images\function2_book_07_2x2761ce.jpg" />
+    <Content Include="images\function2_book_07_4x2761ce.jpg" />
+    <Content Include="images\function3_book_2x2740d2.png" />
+    <Content Include="images\function3_book_4x2740d2.png" />
+    <Content Include="images\function4_table_background_4x2740d2.png" />
+    <Content Include="images\ie\ie_arrow_left.png" />
+    <Content Include="images\ie\ie_arrow_right.png" />
+    <Content Include="images\ie\ie_function1.png" />
+    <Content Include="images\ie\ie_function2.png" />
+    <Content Include="images\ie\ie_function3.png" />
+    <Content Include="images\ie\ie_function4.png" />
+    <Content Include="images\ie\ie_pageControl.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\logo_2x279486.png" />
+    <Content Include="images\logo279486.png" />
+    <Content Include="images\mobile_background2740d2.jpg" />
+    <Content Include="images\mobile_function4_table_background_4x.png" />
+    <Content Include="images\nav_2x279486.png" />
+    <Content Include="images\nav279486.png" />
+    <Content Include="images\ui_2x2761ce.png" />
+    <Content Include="images\ui_4x2761ce.png" />
+    <Content Include="js\index.js" />
+    <Content Include="js\jquery.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="css\" />
+    <Folder Include="images\" />
+    <Folder Include="js\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties>
+        <XspParameters Port="8080" Address="127.0.0.1" SslMode="None" SslProtocol="Default" KeyType="None" CertFile="" KeyFile="" PasswordOptions="None" Password="" Verbose="True" />
+      </Properties>
+    </MonoDevelop>
+  </ProjectExtensions>
+</Project>
